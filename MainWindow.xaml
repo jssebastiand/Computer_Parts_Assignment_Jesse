@@ -1,0 +1,43 @@
+<Window x:Class="u1_01_jesse.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:u1_01_jesse"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <TextBox x:Name="entryName"/>
+        <Button x:Name="btnClickMe"
+               Click="btnClickMe_Click"
+                Content="Show greeting"/>
+        <Label x:Name="lblOutput"
+               Content="Processor "  />
+        <Button x:Name="btnClickMe2"
+               Click="btnClickMe_Click"
+                Content="Show greeting"/>
+        <Label x:Name="lblOutput2"
+               Content="Motherboard "  />
+        <Button x:Name="btnClickMe3"
+               Click="btnClickMe_Click"
+                Content="Show greeting"/>
+        <Label x:Name="lblOutput3"
+               Content="CPU "  />
+        <Button x:Name="btnClickMe4"
+               Click="btnClickMe_Click"
+                Content="Show greeting"/>
+        <Label x:Name="lblOutput4"
+               Content="Memory "  />
+        <Button x:Name="btnClickMe5"
+               Click="btnClickMe_Click"
+                Content="Show greeting"/>
+        <Label x:Name="lblOutput5"
+               Content="Case "  />
+        <Button x:Name="btnClickMe6"
+               Click="btnClickMe_Click"
+                Content="Show greeting"/>
+        <Label x:Name="lblOutput6"
+               Content="UPS "  />
+    </StackPanel>
+
+</Window>
